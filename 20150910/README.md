@@ -217,12 +217,57 @@ Github
 
 “ body {margin: 0;} ” (margin 여백을 0으로)
 
-# Part 3 HTML 태그 연습해보기
-1. section 영역 만들기 
-2. b 태그와 strong 태그 : 텍스트를 굵게
-3. i 태그와 em 태그 : 텍스트 기울이기
-4. 두 section 태그 사이에 선 넣어보기 : 테두리 만들기 / border. border-bottom
-5. span 태그 -style 이용 : style 속성 이용해서 span 태그 꾸미기 / 그 영역만을 꾸밀 수 있도록
-6. a 태그 : 텍스트에 링크걸기
-7. img 태그 -url을 이용하여 이미집 불러오기 : 이미지 출력하기 / <img> 
 
+# Part 3 HTML 태그 연습해보기
+## chapter 1. 강조 태그와 링크 태그
+1. 새로운 section 태그 – 텍스트 강조 태그
+1) 블록요소 vs 인라인 요소
+- 블록 요소로 문장 사이의 단어를 감싸면 그 요소의 영역은 부모의 영역만큼 채워지며, 그 여파로 문장에서 독립됩니다.
+
+
+- 인라인 요소는 문장에 소속된 채로 영역을 잡을 수 있습니다.
+
+
+2. b태그와 strong 태그
+1) b태그와 strong 태그
+- <b> 와 <strong>은 텍스트를 굵게 만들어주는 “인라인 요소 태그”
+- 다음의 css 속성과 동일한 효과 (font-weight: bold;)
+
+3. I 태그와 em 태그
+- <i>와 <em>은 텍스트 기울임 효과를 주는 “인라인 요소 태그”
+- 다음의 css 속성과 동일한 효과 (font-style: italic;)
+
+4. section과 section 사이에 선 넣어보기
+1) border 속성
+- border는 요소의 전방(앞)에 테두리를 만들어주는 속성 (css코드)
+- 다음 CSS 코드는 요소의 전방(앞)에 1px의 검정색 직선 테두리를 만듭니다.
+
+“ border: 1px solid black; ”
+
+2) border-bottom
+- 요소의 하단에 테두리를 만들기 위한 속성
+
+5. span 태그
+1) span 태그의 활용
+- <span> 자체는 아무 효과도 없지만, CSS를 통해 그 영역만을 꾸밀 수 있게 된다.
+- 비유컨대, 한글의 “블록”과 같은 효과
+
+
+“ <span style="color: green;">style 속성</span>이나,
+  <span class="red">class</span> 등을 이용하여 효과를 줄 수 있다 “
+(위는 style을 활용한 것. 아래는 red 라는 클래스를 먼저 생성하여 그것을 외부 스타일 시트 형태로 활용한 것)
+
+6. a 태그 : 텍스트에 링크 걸기
+1) <a>는 링크를 거는 태그 
+2) a 태그의 href 속성
+- href 속성에 이동할 주소를 지정할 수 있다
+(다른 사이트 / 특정 사이트의 하나의 웹 페이지 다 연결 가능하다는 것)
+3) a 태그의 target 속성
+- target 속성 없음 : 현재 페이지가 이동할 페이지로 전환
+- target 속성에 _blank라는 값 삽입 : 새 탭에서 페이지 뜸
+“ <a href="http://www.toycode.net" target="_blank">토이코드</a>”
+
+7. img 태그 – url를 이용하여 이미지 불러오기
+1) src 속성
+- <a>의 href 속성과 비슷 : 해당 속성에 주소를 적으면 해당 주소의 이미지가 화면에 나타난다
+“  <img src="http://goo.gl/q6lh7b"> ”
