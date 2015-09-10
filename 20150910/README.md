@@ -314,3 +314,49 @@ tr (행) ==> 세로로 (줄)넘어가는 단위
 td (내용 셀(열)) ==> 가로로 넘어가는 단위
 table border 속성 (테이블의 선 두께)
 
+## chapter 3. 폼 태그
+1. 폼 태그 – 기본 틀
+- <form> ... </form>
+
+2. 폼 태그 – 텍스트 입력
+1) input 태그
+- <input> : form 태그 안에 여러 가지 컨트롤 요소를 만드는 태그
+- <input type=“text”>  : 텍스트 필드로 한 줄 정도의 텍스트를 입력할 수 있는 란을 만드는 속성
+id : <input type="text" name="id">  (닫는 태그 없음)
+
+3) 폼 태그 – 비밀번호 입력
+- <input type=“password”> : 사용자가 입력할 때 내용이 *로 표시되는 비밀번호 텍스트 삽입란
+password : <input type="password" name="password"> (닫는 태그 없음)
+
+4) 폼 태그 – 여러 줄의 텍스트 입력
+- rows 10 : 세로로 10줄 / cols 50 : 가로로 열 줄
+- <textarea rows="10" cols="50" name="about_me"></textarea> (닫는 태그 있음)
+
+5) 폼 태그 – 고르기
+- input type=“radio” : 여러 가지 항목 중 한 가지만 선택하는 버튼을 만드는 속성
+- name 속성의 값을 맞춰주게 되면 한 그룹처럼 사용되고, 이 중에서 한 가지만 선택할 수 있게 됩니다.
+성별 :
+        <input type="radio" name="gender" value="man">남
+        <input type="radio" name="gender" value="woman">여
+        <br>
+
+
+6) 폼 태그 – 선택하기
+- <select> : 
+국적 :
+        <select name="country">
+          <option value="korea">한국</option>
+          <option value="usa">미국</option>
+          <option value="china">중국</option>
+          <option value="japan">일본</option>
+        </select>
+
+
+
+7. 폼 태그 – 제출 버튼
+- <input type=“submit”>
+- value 속성으로 버튼의 텍스트를 바꿀 수 있음
+
+ <input type="submit" value="제출">
+ 
+ 
