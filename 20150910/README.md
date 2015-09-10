@@ -148,7 +148,39 @@ Github
 “  <link rel="stylesheet" media="all" href="css/style.css">” 
 (<head> ... </head> 사이에다가 작성)
 
+# Part 2 시맨틱 태그로 레이아웃 잡기
+## Chapter1. header와 footer
+1. 시맨틱 태그 – header 태그
+1) header 태그
+- <header>는 주로 사이트 상단에 위치하여 로고, 메뉴, 머리말 등으로 사용
 
+2) 시맨틱 태그
+- 문서의 구조를 만드는 요소
+- <div>와 기능적 차이는 없지만 의미상으로 태그의 이름이 나누어져 있다는 점이 포인트
+- <header> <footer> <nav> <article> <aside> <section> 등이 있음
+
+* <body> ... </body> 사이에 삽입 <-- 본문에 표시되는 내용이므로
+
+2. header 태그 – css 속성 입히기
+- css 창에서 시맨틱 태그를 불러올 때는 그냥 바로 header 이렇게 치면 된다.
+
+==> 비유컨대 시맨틱 태그는 “이름 붙여진 Div / section”과 유사하다.
+
+3. 가운데 정렬하기
+1) text-align 
+- 텍스트를 정렬하는 CSS 속성
+- 대표적인 속성 값은 left. center. right
+“ text-align: center; ”
+
+4. padding으로 여백 주기
+1) padding 속성
+- padding은 내부 여백을 지정하는 속성
+- 기존 크기에서 지정한 padding값만큼 크기가 늘어난다
+- 반대로 margin은 외부 여백을 지정하는 속성
+
+5. 시맨틱 태그 – footer 태그
+1) footer 태그
+- 주로 사이트 하단에 위치하여 저작권 정보. 꼬리말 등의 용도로 사용
 
 # Part 3 HTML 태그 연습해보기
 1. section 영역 만들기 
