@@ -359,4 +359,44 @@ password : <input type="password" name="password"> (닫는 태그 없음)
 
  <input type="submit" value="제출">
  
- 
+# part4. CSS의 여러 속성들
+## chapter 1. 앨범 이미지 만들어보기
+1. album-css 입히기
+1) background 속성
+- 이미지는 html의 img 태그를 이용하거나 css의 background 속성을 이용
+- background: url(“0000”)
+2) background 속성 –no-repeat
+- 배경 이미지 크기가 그 이미지를 적용하는 요소의 크기보다 작을 경우 기본적으로 바둑판 배열으로 채워지는 데 이를 방지하기 위해 뒤에 no-repeat 코드 추가
+- background: url(“000”) no-repeat
+3) background 속성 –cover
+- 배경 이미지 요소의 크기만큼 꽉 채워주면서 이미지의 비율을 잃지 않고 자연스럽게 보여주기 위한 속성
+- background-size: cover;
+
+2. padding 속성 
+- padding 값이 두 개일 경우, 첫 번째 값은 상하 여백, 두 번째 값은 좌우여백
+- padding: 110px 50px;
+
+3. box-sizing 속성 –border-box
+일반적으로 크기가 지정된 요소에 padding으로 내부 여백을 지정하면 기존 크기에 내부 여백 값이 더해져서 원하지 않는 결과물이 나올 수 있습니다.
+예를 들어, 너비 650px의 요소에 좌우 내부 여백 50px을 주면 너비가 750px까지 늘어나게 됩니다.50px(왼쪽 내부 여백) + 650px(기존 너비) + 50px(오른쪽 내부 여백) = 750px
+box-sizing을 border-box로 지정해주면padding, border 등 요소의 크기를 해칠 수 있는 속성을 지정할 때도 요소의 기존 크기를 유지할 수 있습니다.
+4. 여백 활용하기
+- margin / padding 
+여백: 10px; // 모든 방향에 10px의 여백
+여백: 10px 20px; // 위쪽 아래쪽에 10px, 오른쪽 왼쪽에 20px의 여백
+여백: 10px 20px 30px 40px; // 위쪽 10px, 오른쪽 20px, 아래쪽 30px, 왼쪽 40px의 여백(시계 방향)
+“ margin: 15px 0px; ”
+
+5. 요소 반투명하게 만들기
+- opacity : 불투명도를 지정하는 css 속성
+- 0(투명) ~ 1(불투명)
+- “ opacity: 0.5; ”
+
+
+
+
+
+
+
+
+
