@@ -392,11 +392,15 @@ box-sizing을 border-box로 지정해주면padding, border 등 요소의 크�
 - 0(투명) ~ 1(불투명)
 - “ opacity: 0.5; ”
 
+## Chapter2. Hover 연습해보기
+1. hover class 추가
+- hover는 마우스를 올렸을 때 발생하는 이벤트(효과)
 
+2. border-radius 속성
+- 모서리를 둥글게 만드는 css 속성
+- 속성 값으로는 픽셀단위, 퍼센트 단위 등을 사용 가능
 
+3. :hover 
 
-
-
-
-
-
+## Chapter3. 모바일 고려해보기
+한글파일 참조
