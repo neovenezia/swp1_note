@@ -334,7 +334,7 @@ password : <input type="password" name="password"> (닫는 태그 없음)
 
 5) 폼 태그 – 고르기
 - input type=“radio” : 여러 가지 항목 중 한 가지만 선택하는 버튼을 만드는 속성
-- name 속성의 값을 맞춰주게 되면 한 그룹처럼 사용되고, 이 중에서 한 가지만 선택할 수 있게 됩니다.
+- name 속성의 값을 맞춰주게 되면 한 그���처럼 사용되고, 이 중에서 한 가지만 선택할 수 있게 됩니다.
 성별 :
         <input type="radio" name="gender" value="man">남
         <input type="radio" name="gender" value="woman">여
@@ -403,4 +403,6 @@ box-sizing을 border-box로 지정해주면padding, border 등 요소의 크�
 3. :hover 
 
 ## Chapter3. 모바일 고려해보기
-한글파일 참조
+한글파일 참조zz
+
+입니다.
